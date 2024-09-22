@@ -23,13 +23,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVq-g7-U8B">
-                                <rect key="frame" x="136.66666666666666" y="583.66666666666663" width="119.99999999999997" height="30"/>
+                                <rect key="frame" x="126" y="579.66666666666663" width="141" height="34"/>
                                 <color key="backgroundColor" red="0.60264229774475098" green="0.090616129338741302" blue="0.31900382041931152" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="UaJ-Qi-QTZ"/>
                                 </constraints>
+                                <inset key="contentEdgeInsets" minX="16" minY="8" maxX="16" maxY="8"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Show Greeting">
+                                <state key="normal" title="Show Greetings">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
@@ -48,6 +49,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="greetingButton" destination="uVq-g7-U8B" id="xZT-2L-4NT"/>
                         <outlet property="greetingLabel" destination="Uaw-db-Q1Z" id="aXD-Rx-Szf"/>
                     </connections>
                 </viewController>
